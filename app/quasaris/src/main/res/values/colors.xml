@@ -1,0 +1,32 @@
+<resources>
+    <color name="colorPrimary">#4B4B4B</color> <!-- sleek charcoal grey -->
+    <color name="colorPrimaryDark">#0A0A0A</color> <!-- almost black grey -->
+    <color name="colorSecondary">#C0C0C0</color> <!-- silvery grey -->
+    <color name="colorSecondaryDark">#787878</color> <!-- deep graphite silver -->
+    <color name="white">#FFFFFF</color>
+
+    <!-- Added colors for the modern minimalist theme -->
+    <color name="background_color">#FAFAFA</color> <!-- a very light grey, almost white, for the background -->
+    <color name="text_primary">#212121</color> <!-- a dark grey for primary text, providing good readability -->
+    <color name="button_text">#FFFFFF</color> <!-- white for text on buttons -->
+    <color name="edittext_line">#E0E0E0</color> <!-- light grey for the EditText line -->
+    <color name="button_background">#4B4B4B</color> <!-- using the colorPrimary for button background -->
+
+    <!-- Added colors for the classic business theme -->
+    <color name="classic_background">#EFEFEF</color> <!-- a soft grey for the business background -->
+    <color name="classic_divider">#BDBDBD</color> <!-- a medium grey for dividers and lines -->
+    <color name="classic_text_color">#2E2E2E</color> <!-- a deep grey for text, exuding professionalism -->
+    <color name="classic_button_background">#9E9E9E</color> <!-- a muted grey for button backgrounds -->
+    <color name="classic_edittext_background">#D6D6D6</color> <!-- a light grey for EditText backgrounds -->
+
+    <!-- Added colors for the vibrant and playful theme -->
+    <color name="playful_background">#F9D342</color> <!-- bright yellow for a lively background -->
+    <color name="playful_divider">#FF7043</color> <!-- vibrant orange for dividers -->
+    <color name="playful_text">#FFFFFF</color> <!-- white text color for better contrast on vibrant backgrounds -->
+    <color name="playful_edittext">#FFECB3</color> <!-- light playful color for EditText background -->
+    <color name="playful_button">#FF5722</color> <!-- bright and playful color for buttons -->
+    <color name="playful_panel_background">#FFF3E0</color> <!-- light orange for panel backgrounds -->
+    <color name="playful_background_start">#FFD54F</color> <!-- Bright yellow -->
+    <color name="playful_background_end">#FFA726</color>   <!-- Orange -->
+
+</resources>

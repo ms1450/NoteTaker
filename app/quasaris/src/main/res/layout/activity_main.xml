@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/playful_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <ListView
+        android:id="@+id/notesList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/playful_divider"
+        android:dividerHeight="4dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/playful_panel_background"
+        android:padding="16dp">
+
+    <EditText
+        android:id="@+id/titleInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title_hint"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:background="@drawable/playful_edittext_background"
+        android:padding="12dp"
+        android:fontFamily="cursive" />
+
+    <EditText
+        android:id="@+id/contentInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/content_hint"
+        android:inputType="textMultiLine"
+        android:textSize="20sp"
+        android:background="@drawable/playful_edittext_background"
+        android:padding="12dp"
+        android:visibility="gone"
+        android:fontFamily="cursive" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_note"
+        android:textSize="20sp"
+        android:textColor="@color/playful_text"
+        android:background="@drawable/playful_button_background"
+        android:padding="12dp"
+        android:fontFamily="cursive" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/textNoteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_note"
+            android:textSize="20sp"
+            android:textColor="@color/playful_text"
+            android:background="@drawable/playful_button_background"
+            android:fontFamily="cursive" />
+
+        <Button
+            android:id="@+id/recordButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/record_note"
+            android:textSize="20sp"
+            android:textColor="@color/playful_text"
+            android:background="@drawable/playful_button_background"
+            android:fontFamily="cursive" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveTextNoteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/playful_text"
+        android:background="@drawable/playful_button_background"
+        android:fontFamily="cursive" />
+
+    <Button
+        android:id="@+id/stopRecordingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_and_save"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/playful_text"
+        android:background="@drawable/playful_button_background"
+        android:fontFamily="cursive" />
+    </LinearLayout>
+</RelativeLayout>

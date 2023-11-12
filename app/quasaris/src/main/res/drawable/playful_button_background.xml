@@ -1,0 +1,10 @@
+<!-- res/drawable/playful_button_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" />
+            <solid android:color="@color/playful_button" /> <!-- A bright color -->
+            <padding android:left="16dp" android:top="8dp" android:right="16dp" android:bottom="8dp" />
+        </shape>
+    </item>
+</selector>

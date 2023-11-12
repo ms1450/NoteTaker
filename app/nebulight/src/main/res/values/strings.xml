@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Nebulight</string>
+    <string name="add_note">new</string>
+    <string name="add_text_note">text</string>
+    <string name="add_audio_note">audio</string>
+    <string name="title_hint">Enter Title</string>
+    <string name="stop_and_save">Stop and Save</string>
+    <string name="save">Save Note</string>
+    <string name="record_note">Record</string>
+    <string name="text_note">Write</string>
+    <string name="content_hint">Enter Content</string>
+    <string name="delete">Delete</string>
+</resources>
